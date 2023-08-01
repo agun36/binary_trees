@@ -4,8 +4,8 @@
 /**
   * binary_tree_inorder - Binary inorder
   *
-  * @*tree: is a pointer to the root node of the tree to traverse
-  * @*func: is a pointer to a function to call for each node.
+  * @tree: is a pointer to the root node of the tree to traverse
+  * @func: is a pointer to a function to call for each node.
   *
   * Return:  a pointer to the created node
   */

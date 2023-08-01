@@ -4,7 +4,7 @@
 /**
   * binary_tree_is_root - Binary Tree is root
   *
-  * @*node: is a pointer to the node to check
+  * @node: is a pointer to the node to check
   *
   * Return:  a pointer to the created node
   */

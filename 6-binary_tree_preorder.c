@@ -4,8 +4,8 @@
 /**
   * binary_tree_preorder - Binary Tree Pre-Order
   *
-  * @*tree: is a pointer to the root node of the tree to traverse
-  * @*func: pointer to a function to call for each node.
+  * @tree: is a pointer to the root node of the tree to traverse
+  * @func: pointer to a function to call for each node.
   *
   * Return:  a pointer to the created node
   */
