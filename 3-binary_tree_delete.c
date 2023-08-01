@@ -5,6 +5,8 @@
   * binary_tree_delete - Binary Tree delete
   *
   * @tree: pointer to the root node of the tree to delete
+  *
+  * Return:  a pointer to the created node
   */
 void binary_tree_delete(binary_tree_t *tree)
 {
