@@ -4,12 +4,13 @@
 
 
 /**
-  * binary_tree_t *binary_tree_node - Function start
+  * binary_tree_node - binary tree node
   *
   * @parent: pointer to the parent node
   * @value: integer to the pointer
+  *
+  * Return: Pointer to the newly created node, or NULL on failure.
   */
-
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 	/*creating new node*/
