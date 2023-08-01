@@ -5,6 +5,8 @@
   * binary_tree_is_leaf - Binary Checks
   *
   * @*node: is a pointer to the node to check
+  *
+  * Return:  a pointer to the created node
   */
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
