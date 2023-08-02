@@ -1,18 +1,18 @@
 #include "binary_trees.h"
 
 /**
- * bst_smallest - finds the smallest node from a Binary Search Tree
+ * bst_s - finds the sest node from a Binary Search Tree
  * @root: a pointer to the root node of the tree
- * Return: a pointer to the smallest node
+ * Return: a pointer to the sest node
  */
 bst_t *bst_s(bst_t *root)
 {
-	bst_t *small = root;
+	bst_t *s = root;
 
-	while (small->left)
-		small = small->left;
+	while (s->left)
+		s = s->left;
 
-	return (small);
+	return (s);
 }
 
 /**
