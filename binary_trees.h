@@ -73,5 +73,5 @@ int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 int isBST(const binary_tree_t *tree, int min_num, int max_num);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
-
+bst_t *bst_s(bst_t *root);
 #endif
